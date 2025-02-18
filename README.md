@@ -1,8 +1,10 @@
+# Buddyboss Custom Profile Fields
+
 Adds custom profile field (Business Name) into the Members directory feed as the name of the user (member loop and in profiles). Using Buddy Boss plugin
 
 This example adds fields "Business Name" as the user's name
 
-Case 1: Member Loop
+## Case 1: Member Loop
 
 The member's template path is here:
 
@@ -12,7 +14,7 @@ Add or Create members-loop.php to your child theme: /buddypress/members/members-
 
 This code has been changed on line 160, the class is member-name.
 
-Case 2: Profile
+## Case 2: Profile
 
 The path is public_html/wp-content/plugins/buddyboss-platform/bp-templates/bp-nouveau/buddypress/members/single/cover-image-header.php
 
